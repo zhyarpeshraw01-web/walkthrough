@@ -1,0 +1,49 @@
+EMILE — BETWEEN TIMBER & FOREST
+An interactive photographic architectural study
+
+WINDOWS
+1. Right-click the ZIP and choose Extract All.
+2. Open the extracted Emile_Cinematic folder.
+3. Double-click START_EMILE.cmd.
+
+The launcher opens index.html in your default browser. Microsoft Edge or
+Google Chrome with hardware acceleration is recommended. You can also open
+index.html directly. There is no installer, server, Python, Node.js, account,
+or internet connection required to run the study.
+
+HOW TO EXPLORE
+Click "Explore the interior".
+Move your mouse to see relative depth; drag gently for a limited change of
+perspective. On a touchscreen, drag slowly to explore or swipe horizontally
+and quickly to change scenes. Use the arrows at the bottom to navigate.
+
+Click a numbered hotspot or its outlined object. The side panel explains the
+furniture, material, lighting or spatial relationship. "Read the room" opens
+12 analytical lenses. "Analysis" hides or shows the graphics.
+
+Depth effect: toggle between inferred depth and the original still.
+Depth map: inspect the actual precomputed AI map; white is nearer.
+Layers: separate the three optical depth bands. Gaps are left empty.
+Floor plan: explore zoning, seating, table counts and lighting zones.
+Evidence & method: see sources, limitations and image-rights status.
+
+KEYBOARD
+Left / Right: change photographic scene
+A: show / hide analytical overlays
+M: turn depth effect on / off
+P: open original floor plan
+F: toggle fullscreen
+Esc: close the current dialog or object selection
+Tab / Enter: reach and activate controls and objects
+
+IMPORTANT EVIDENCE AND RIGHTS LIMITS
+The scene photographs are authentic; depth is inferred, not measured 3D.
+Photograph redistribution permission has NOT been verified. This academic
+analytical prototype does not grant any rights to reuse the photographs.
+Read docs/RIGHTS.txt before public sharing, publication or redistribution.
+
+If WebGL is unavailable, the experience automatically keeps the photographs
+and analysis available in still mode. Source links only need internet if you
+choose to open them. All presentation assets are already inside this folder.
+
+Prepared by Zhyar Peshraw - Yasr - Soma - Snur

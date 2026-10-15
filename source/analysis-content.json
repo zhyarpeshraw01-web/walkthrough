@@ -1,0 +1,1357 @@
+{
+  "title": "Emile — Between timber & forest",
+  "authors": "Zhyar Peshraw · Yasr · Soma · Snur",
+  "lenses": [
+    [
+      "all",
+      "Read the room"
+    ],
+    [
+      "furniture",
+      "Furniture"
+    ],
+    [
+      "arrangement",
+      "Arrangement"
+    ],
+    [
+      "ergonomics",
+      "Ergonomics"
+    ],
+    [
+      "ceiling",
+      "Ceiling"
+    ],
+    [
+      "walls",
+      "Walls"
+    ],
+    [
+      "floor",
+      "Floor"
+    ],
+    [
+      "materials",
+      "Materials"
+    ],
+    [
+      "lighting",
+      "Lighting"
+    ],
+    [
+      "composition",
+      "Design principles"
+    ],
+    [
+      "circulation",
+      "Circulation"
+    ],
+    [
+      "biophilia",
+      "Biophilia"
+    ]
+  ],
+  "sources": [
+    {
+      "id": "project",
+      "name": "Studio Arthur Casas — Emiliano Rio",
+      "url": "https://www.arthurcasas.com/projects/emiliano-rio-hotel/",
+      "role": "Project authorship, dates, concept and garden photograph."
+    },
+    {
+      "id": "facts",
+      "name": "Studio Arthur Casas — project factsheet",
+      "url": "https://www.arthurcasas.com/app/uploads/2018/10/factsheet-emiliano-rio-pt.pdf",
+      "role": "Original specification: furniture names, room allocation and upholstery."
+    },
+    {
+      "id": "plan",
+      "name": "ArchDaily — published ground-floor plan",
+      "url": "https://www.archdaily.com/889368/emiliano-rj-studio-arthur-casas",
+      "role": "Original layout, project credits and entrance photograph."
+    },
+    {
+      "id": "record",
+      "name": "Architectural Record — April 2018",
+      "url": "https://www.arthurcasas.com/app/uploads/2018/12/2018-04-architectural-record-materia.pdf",
+      "role": "Timber-room photograph and identification of freijó wall panels."
+    },
+    {
+      "id": "lampiao",
+      "name": "Studio Arthur Casas — Lampião chair",
+      "url": "https://www.arthurcasas.com/projects/lampiao-and-maria-bonita-chairs-2/",
+      "role": "Chair design, timber frame and leather construction."
+    },
+    {
+      "id": "saarinen",
+      "name": "Knoll — Saarinen Executive Arm Chair",
+      "url": "https://www.knoll.com/design-plan/product/saarinen-executive-arm-chair-swivel-base",
+      "role": "Model comparison and sculptural upholstered form."
+    },
+    {
+      "id": "pollock",
+      "name": "Knoll — Pollock Executive Chair",
+      "url": "https://www.knoll.com/design-plan/product/pollock-executive-chair",
+      "role": "Comparison with the name listed for the garden in the project factsheet."
+    },
+    {
+      "id": "official",
+      "name": "Hotel Emiliano — Emile Restaurant",
+      "url": "https://emiliano.com.br/en/gastronomia-rj/emile-restaurant/",
+      "role": "Restaurant identity and location."
+    },
+    {
+      "id": "depth",
+      "name": "Depth Anything V2 Small — ONNX model",
+      "url": "https://huggingface.co/onnx-community/depth-anything-v2-small",
+      "role": "Apache-2.0 model used to compute relative inverse-depth maps locally."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "timber",
+      "num": "01",
+      "title": "The timber room",
+      "subtitle": "An intimate enclosure, opened toward green.",
+      "description": "A continuous timber envelope gathers the dining furniture into one warm composition. At the far end, the planted room becomes a visual destination.",
+      "theme": "amber",
+      "image": "timber",
+      "size": [
+        2338,
+        1501
+      ],
+      "credit": "Photograph © Fernando Guerra · Architectural Record / Studio Arthur Casas",
+      "source": "record",
+      "planZone": "main",
+      "overview": [
+        "Main dining room",
+        "Loose chairs + tables",
+        "Timber enclosure"
+      ],
+      "hotspots": [
+        {
+          "id": "saarinen",
+          "code": "01",
+          "title": "A sculptural upholstered armchair",
+          "short": "Saarinen armchair",
+          "tags": [
+            "furniture",
+            "ergonomics",
+            "materials"
+          ],
+          "at": [
+            0.22,
+            0.79
+          ],
+          "polygon": [
+            [
+              0.073,
+              0.717
+            ],
+            [
+              0.101,
+              0.704
+            ],
+            [
+              0.136,
+              0.748
+            ],
+            [
+              0.224,
+              0.681
+            ],
+            [
+              0.304,
+              0.637
+            ],
+            [
+              0.359,
+              0.626
+            ],
+            [
+              0.371,
+              0.647
+            ],
+            [
+              0.367,
+              0.759
+            ],
+            [
+              0.35,
+              0.85
+            ],
+            [
+              0.293,
+              0.914
+            ],
+            [
+              0.147,
+              0.974
+            ],
+            [
+              0.113,
+              0.955
+            ],
+            [
+              0.081,
+              0.872
+            ],
+            [
+              0.067,
+              0.78
+            ]
+          ],
+          "reading": "The main-room factsheet identifies a Saarinen chair with Vescom Malta 7037.16 upholstery. Its curved shell and integrated arms differ from the open timber frame of Lampião.",
+          "rationale": "The organic modernist shell gives each diner a defined personal place. Olive upholstery softens the surrounding timber and adds a fine woven texture.",
+          "boundary": "Freestanding. Comfort and pull-back clearance need measurements; a photograph cannot establish an ergonomic standard.",
+          "evidence": "Specified + observed",
+          "sources": [
+            "facts",
+            "saarinen"
+          ],
+          "diagram": "chair"
+        },
+        {
+          "id": "lampiao",
+          "code": "02",
+          "title": "Timber frame, taut leather",
+          "short": "Lampião chair",
+          "tags": [
+            "furniture",
+            "materials",
+            "composition"
+          ],
+          "at": [
+            0.372,
+            0.575
+          ],
+          "polygon": [
+            [
+              0.293,
+              0.532
+            ],
+            [
+              0.324,
+              0.515
+            ],
+            [
+              0.376,
+              0.489
+            ],
+            [
+              0.414,
+              0.497
+            ],
+            [
+              0.426,
+              0.518
+            ],
+            [
+              0.418,
+              0.558
+            ],
+            [
+              0.417,
+              0.666
+            ],
+            [
+              0.428,
+              0.802
+            ],
+            [
+              0.415,
+              0.811
+            ],
+            [
+              0.399,
+              0.686
+            ],
+            [
+              0.366,
+              0.678
+            ],
+            [
+              0.321,
+              0.675
+            ],
+            [
+              0.317,
+              0.663
+            ],
+            [
+              0.342,
+              0.615
+            ],
+            [
+              0.305,
+              0.606
+            ]
+          ],
+          "reading": "Lampião is identified in the project factsheet and was designed by Arthur Casas. The installed version combines a dark timber frame with a brown leather seat and curved back.",
+          "rationale": "This contemporary Brazilian design has a lighter outline than the upholstered shell. Repeating its curves among the tables adds variety within the warm material palette.",
+          "boundary": "Freestanding. The source identifies the chair; timber species and installed dimensions have not been verified.",
+          "evidence": "Specified + observed",
+          "sources": [
+            "facts",
+            "lampiao"
+          ],
+          "diagram": "chair"
+        },
+        {
+          "id": "square",
+          "code": "03",
+          "title": "Square tables organize small groups",
+          "short": "Square dining table",
+          "tags": [
+            "furniture",
+            "arrangement",
+            "materials"
+          ],
+          "at": [
+            0.18,
+            0.585
+          ],
+          "polygon": [
+            [
+              0,
+              0.549
+            ],
+            [
+              0.24,
+              0.497
+            ],
+            [
+              0.375,
+              0.564
+            ],
+            [
+              0.283,
+              0.602
+            ],
+            [
+              0,
+              0.695
+            ]
+          ],
+          "reading": "The factsheet lists Universal square dining tables. In this view, pale tops sit on slender dark supports and are surrounded by individual loose chairs.",
+          "rationale": "The square geometry makes each dining group legible. Pale horizontal surfaces contrast with darker frames and the timber enclosure.",
+          "boundary": "Freestanding. The exact tabletop stone species is not confirmed. The published main-room plan contains 8 square dining-table symbols.",
+          "evidence": "Specified + plan count",
+          "sources": [
+            "facts",
+            "plan"
+          ],
+          "diagram": "table"
+        },
+        {
+          "id": "round",
+          "code": "04",
+          "title": "Round tables interrupt the grid",
+          "short": "Round dining table",
+          "tags": [
+            "furniture",
+            "arrangement",
+            "composition"
+          ],
+          "at": [
+            0.66,
+            0.474
+          ],
+          "polygon": [
+            [
+              0.56,
+              0.459
+            ],
+            [
+              0.592,
+              0.449
+            ],
+            [
+              0.677,
+              0.443
+            ],
+            [
+              0.748,
+              0.454
+            ],
+            [
+              0.773,
+              0.477
+            ],
+            [
+              0.763,
+              0.491
+            ],
+            [
+              0.723,
+              0.5
+            ],
+            [
+              0.621,
+              0.496
+            ],
+            [
+              0.571,
+              0.481
+            ]
+          ],
+          "reading": "Universal round dining tables are also listed for the main room. Three round dining symbols appear among the eight square ones in the published plan.",
+          "rationale": "Curved edges soften the repeated rectilinear groups. Shared orientation around a circle supports face-to-face conversation without a dominant end seat.",
+          "boundary": "This is a documented plan count, not the restaurant’s current capacity. A separate central display table is not counted as a dining table.",
+          "evidence": "Specified + plan count",
+          "sources": [
+            "facts",
+            "plan"
+          ],
+          "diagram": "table"
+        },
+        {
+          "id": "ceiling",
+          "code": "05",
+          "title": "A continuous canopy",
+          "short": "Timber ceiling",
+          "tags": [
+            "ceiling",
+            "composition",
+            "lighting"
+          ],
+          "at": [
+            0.51,
+            0.092
+          ],
+          "polygon": [
+            [
+              0.16,
+              0.005
+            ],
+            [
+              0.97,
+              0.005
+            ],
+            [
+              0.686,
+              0.177
+            ],
+            [
+              0.35,
+              0.177
+            ]
+          ],
+          "reading": "Timber extends overhead with small recessed downlights. The wall and ceiling surfaces read as a continuous enclosure rather than separate decorative layers.",
+          "rationale": "The relatively low-looking horizontal canopy brings the perceived scale closer to seated diners. Its warm continuity contrasts with the taller planted volume beyond.",
+          "boundary": "Perceived scale is an interpretation. No measured ceiling height, assembly detail or acoustic performance is asserted.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "record",
+            "project"
+          ],
+          "diagram": "section"
+        },
+        {
+          "id": "wall",
+          "code": "06",
+          "title": "Vertical grain and luminous joints",
+          "short": "Freijó wall panels",
+          "tags": [
+            "walls",
+            "lighting",
+            "materials",
+            "composition"
+          ],
+          "at": [
+            0.2,
+            0.255
+          ],
+          "polygon": [
+            [
+              0.005,
+              0.005
+            ],
+            [
+              0.151,
+              0.005
+            ],
+            [
+              0.237,
+              0.085
+            ],
+            [
+              0.245,
+              0.408
+            ],
+            [
+              0.195,
+              0.444
+            ],
+            [
+              0.014,
+              0.533
+            ]
+          ],
+          "reading": "Architectural Record identifies the restaurant’s wall panels as freijó. Tall timber panels alternate with bright linear slots, while light also washes the upper edge.",
+          "rationale": "Vertical repetition establishes rhythm along the room. Grazing light reveals grain and separates the panels, adding depth to an otherwise continuous surface.",
+          "boundary": "These are visible lighting effects. Fixture spacing, output and concealed wall construction are not published here.",
+          "evidence": "Specified + observed",
+          "sources": [
+            "record",
+            "plan"
+          ],
+          "diagram": "rhythm"
+        },
+        {
+          "id": "floor",
+          "code": "07",
+          "title": "The floor holds the composition together",
+          "short": "Timber floor",
+          "tags": [
+            "floor",
+            "materials",
+            "composition"
+          ],
+          "at": [
+            0.49,
+            0.81
+          ],
+          "polygon": [
+            [
+              0.45,
+              0.57
+            ],
+            [
+              0.524,
+              0.57
+            ],
+            [
+              0.599,
+              0.985
+            ],
+            [
+              0.369,
+              0.985
+            ],
+            [
+              0.4,
+              0.827
+            ]
+          ],
+          "reading": "Timber boards continue beneath the movable furniture. Their joints create a finer rhythm than the broad wall and ceiling panels.",
+          "rationale": "A related colour and grain link the horizontal and vertical surfaces. The continuous field helps separate the central movement route from the individual dining groups.",
+          "boundary": "Species, finish, slip resistance and maintenance specification are unverified. Visible sheen does not establish performance.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "record"
+          ],
+          "diagram": "grain"
+        },
+        {
+          "id": "route",
+          "code": "08",
+          "title": "A route between table groups",
+          "short": "Central circulation",
+          "tags": [
+            "circulation",
+            "ergonomics",
+            "arrangement"
+          ],
+          "at": [
+            0.494,
+            0.56
+          ],
+          "polygon": [
+            [
+              0.477,
+              0.433
+            ],
+            [
+              0.519,
+              0.433
+            ],
+            [
+              0.568,
+              0.832
+            ],
+            [
+              0.44,
+              0.832
+            ]
+          ],
+          "path": [
+            [
+              0.49,
+              0.91
+            ],
+            [
+              0.48,
+              0.73
+            ],
+            [
+              0.492,
+              0.54
+            ],
+            [
+              0.515,
+              0.412
+            ]
+          ],
+          "reading": "An open central band connects the timber room to the garden. Individual chairs occupy the edges of table groups rather than a continuous fixed seating line.",
+          "rationale": "The layout gives the dining field an understandable direction. Chair pull-back and service movement must be considered together, beyond the tabletop footprint.",
+          "boundary": "The line describes a spatial reading, not a measured accessible or emergency route. Do not derive clear widths from the perspective photograph.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "plan",
+            "record"
+          ],
+          "diagram": "route"
+        },
+        {
+          "id": "focus",
+          "code": "09",
+          "title": "A green focal point",
+          "short": "Garden as visual focus",
+          "tags": [
+            "biophilia",
+            "composition",
+            "walls"
+          ],
+          "at": [
+            0.544,
+            0.26
+          ],
+          "polygon": [
+            [
+              0.421,
+              0.18
+            ],
+            [
+              0.671,
+              0.18
+            ],
+            [
+              0.671,
+              0.333
+            ],
+            [
+              0.421,
+              0.333
+            ]
+          ],
+          "reading": "The opening frames the planted wall at the rear. Timber geometry foregrounds an irregular field of foliage.",
+          "rationale": "The garden supplies emphasis, contrast and a visual connection with nature. Repeated timber surfaces provide unity while the leaves introduce variation.",
+          "boundary": "This is an architectural interpretation. Psychological or air-quality improvements have not been measured for this restaurant.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "project",
+            "record"
+          ],
+          "diagram": "focus"
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "num": "02",
+      "title": "The planted room",
+      "subtitle": "A living perimeter, under a field of daylight.",
+      "description": "The timber room releases into a taller garden. Continuous upholstered seating follows the edges, with loose chairs facing inward across the tables.",
+      "theme": "sage",
+      "image": "garden",
+      "size": [
+        2349,
+        3000
+      ],
+      "credit": "Photograph © Fernando Guerra · Studio Arthur Casas",
+      "source": "project",
+      "planZone": "garden",
+      "overview": [
+        "Garden dining room",
+        "Perimeter seating",
+        "Overhead daylight"
+      ],
+      "hotspots": [
+        {
+          "id": "garden-chair",
+          "code": "01",
+          "title": "A loose upholstered armchair",
+          "short": "Garden armchair",
+          "tags": [
+            "furniture",
+            "ergonomics",
+            "materials"
+          ],
+          "at": [
+            0.83,
+            0.756
+          ],
+          "polygon": [
+            [
+              0.592,
+              0.6
+            ],
+            [
+              0.632,
+              0.608
+            ],
+            [
+              0.695,
+              0.64
+            ],
+            [
+              0.779,
+              0.698
+            ],
+            [
+              0.874,
+              0.724
+            ],
+            [
+              0.999,
+              0.741
+            ],
+            [
+              0.999,
+              0.829
+            ],
+            [
+              0.962,
+              0.847
+            ],
+            [
+              0.906,
+              0.824
+            ],
+            [
+              0.85,
+              0.802
+            ],
+            [
+              0.781,
+              0.762
+            ],
+            [
+              0.721,
+              0.723
+            ],
+            [
+              0.658,
+              0.678
+            ],
+            [
+              0.621,
+              0.643
+            ]
+          ],
+          "reading": "Brown upholstered armchairs face the perimeter seating. Their open-back shell and integrated arms appear Saarinen-like in this photograph.",
+          "rationale": "Freestanding chairs allow individual adjustment, while their repeated rounded backs form an ordered counterpoint to the irregular planting.",
+          "boundary": "Model uncertain: the factsheet lists Pollock / CH Castor for the garden, which does not clearly match the visible form. The upholstery is not confidently identified as leather.",
+          "evidence": "Observed; attribution unresolved",
+          "sources": [
+            "facts",
+            "saarinen",
+            "pollock"
+          ],
+          "diagram": "chair"
+        },
+        {
+          "id": "banquette",
+          "code": "02",
+          "title": "A fixed-position upholstered edge",
+          "short": "Perimeter banquette",
+          "tags": [
+            "furniture",
+            "arrangement",
+            "ergonomics"
+          ],
+          "at": [
+            0.48,
+            0.578
+          ],
+          "polygon": [
+            [
+              0.012,
+              0.562
+            ],
+            [
+              0.204,
+              0.551
+            ],
+            [
+              0.776,
+              0.551
+            ],
+            [
+              0.99,
+              0.566
+            ],
+            [
+              0.99,
+              0.613
+            ],
+            [
+              0.776,
+              0.596
+            ],
+            [
+              0.204,
+              0.596
+            ],
+            [
+              0.012,
+              0.626
+            ]
+          ],
+          "reading": "A continuous upholstered banquette follows the garden’s perimeter. The published plan shows a U-shaped arrangement with individual chair symbols opposite.",
+          "rationale": "The continuous edge anchors the room and makes the central floor easier to read. Cushions bring a soft scale close to the seated body.",
+          "boundary": "Fixed-position / built-in arrangement is visible; concealed fastening details are not verified. Loose chairs and tables remain freestanding.",
+          "evidence": "Observed + plan",
+          "sources": [
+            "plan",
+            "project"
+          ],
+          "diagram": "banquette"
+        },
+        {
+          "id": "garden-table",
+          "code": "03",
+          "title": "Tables mediate between two seating forms",
+          "short": "Garden tables",
+          "tags": [
+            "furniture",
+            "arrangement",
+            "materials"
+          ],
+          "at": [
+            0.16,
+            0.627
+          ],
+          "polygon": [
+            [
+              0.005,
+              0.616
+            ],
+            [
+              0.156,
+              0.604
+            ],
+            [
+              0.23,
+              0.624
+            ],
+            [
+              0.173,
+              0.642
+            ],
+            [
+              0.005,
+              0.65
+            ]
+          ],
+          "reading": "Pale table surfaces sit between the banquette and loose armchairs. Slender dark legs leave the lower part of the room visually open.",
+          "rationale": "Combining a stable perimeter with movable furniture gives the seating field both continuity and local flexibility.",
+          "boundary": "The factsheet names oval and round F-Knoll tables, but those shapes cannot be confidently matched to the rectilinear-looking tops in this photograph.",
+          "evidence": "Observed; attribution unresolved",
+          "sources": [
+            "facts",
+            "project"
+          ],
+          "diagram": "banquette"
+        },
+        {
+          "id": "green-wall",
+          "code": "04",
+          "title": "The wall becomes a planted volume",
+          "short": "Living enclosure",
+          "tags": [
+            "walls",
+            "biophilia",
+            "materials",
+            "composition"
+          ],
+          "at": [
+            0.51,
+            0.33
+          ],
+          "polygon": [
+            [
+              0.19,
+              0.144
+            ],
+            [
+              0.81,
+              0.144
+            ],
+            [
+              0.83,
+              0.548
+            ],
+            [
+              0.17,
+              0.548
+            ]
+          ],
+          "reading": "Dense planting covers the tall enclosure. Project descriptions connect the ground-floor garden with the atmosphere of the Atlantic Forest; landscape design is credited to Renata Tilli.",
+          "rationale": "Overlapping leaves create visual depth, fine texture and irregular shadow. The planted vertical surface is the principal contrast to the ordered furniture field.",
+          "boundary": "Biophilic character is visible. Plant species, irrigation details, humidity control and environmental performance are not established here.",
+          "evidence": "Documented concept + interpretation",
+          "sources": [
+            "project",
+            "plan"
+          ],
+          "diagram": "biophilia"
+        },
+        {
+          "id": "skylight",
+          "code": "05",
+          "title": "Daylight enters from above",
+          "short": "Skylight",
+          "tags": [
+            "lighting",
+            "ceiling",
+            "biophilia"
+          ],
+          "at": [
+            0.5,
+            0.07
+          ],
+          "polygon": [
+            [
+              0.13,
+              0.008
+            ],
+            [
+              0.89,
+              0.008
+            ],
+            [
+              0.812,
+              0.136
+            ],
+            [
+              0.199,
+              0.136
+            ]
+          ],
+          "reading": "A glazed roof brings overhead daylight into the tall garden. The roof plane is legible above the foliage rather than visually merging with it.",
+          "rationale": "Light from above emphasizes the vertical volume and gives the planting a different atmosphere from the more enclosed timber room.",
+          "boundary": "The arrows show downward light direction only. No compass orientation, solar-path study, illuminance or roof build-up has been verified.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "project",
+            "record"
+          ],
+          "diagram": "daylight"
+        },
+        {
+          "id": "pendants",
+          "code": "06",
+          "title": "Warm accents at the planted edges",
+          "short": "Wall-supported lights",
+          "tags": [
+            "lighting",
+            "walls",
+            "composition"
+          ],
+          "at": [
+            0.092,
+            0.399
+          ],
+          "polygon": [
+            [
+              0.025,
+              0.353
+            ],
+            [
+              0.13,
+              0.354
+            ],
+            [
+              0.13,
+              0.422
+            ],
+            [
+              0.058,
+              0.422
+            ],
+            [
+              0.057,
+              0.375
+            ],
+            [
+              0.025,
+              0.375
+            ]
+          ],
+          "reading": "Glowing pendants hang from arms that project from the planted side walls. They introduce small warm points below the skylight.",
+          "rationale": "The lower accents relate the tall enclosure back to the dining level. Their repeated points add a second rhythm within the foliage.",
+          "boundary": "These are wall-supported suspended accents, not all ceiling-mounted fixtures. Exact beam angles, colour temperature and fitting model are unknown.",
+          "evidence": "Observed",
+          "sources": [
+            "project",
+            "record"
+          ],
+          "diagram": "lighting"
+        },
+        {
+          "id": "garden-floor",
+          "code": "07",
+          "title": "A quieter horizontal field",
+          "short": "Floor + central space",
+          "tags": [
+            "floor",
+            "circulation",
+            "ergonomics",
+            "materials"
+          ],
+          "at": [
+            0.5,
+            0.87
+          ],
+          "polygon": [
+            [
+              0.422,
+              0.675
+            ],
+            [
+              0.588,
+              0.675
+            ],
+            [
+              0.737,
+              0.989
+            ],
+            [
+              0.271,
+              0.989
+            ]
+          ],
+          "path": [
+            [
+              0.5,
+              0.96
+            ],
+            [
+              0.5,
+              0.82
+            ],
+            [
+              0.5,
+              0.705
+            ],
+            [
+              0.5,
+              0.647
+            ]
+          ],
+          "reading": "Timber boards continue through the open centre, between the opposing chair groups. The floor is calmer and more regular than the planted walls.",
+          "rationale": "This contrast gives the room a stable base. The open band provides an understandable movement direction, but chair use can reduce its available width.",
+          "boundary": "No measured circulation widths, slip rating or acoustic test is available. Upholstery may help soften reflections; performance cannot be quantified from images.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "project",
+            "plan"
+          ],
+          "diagram": "route"
+        },
+        {
+          "id": "garden-balance",
+          "code": "08",
+          "title": "Order below, irregularity above",
+          "short": "Balance + proportion",
+          "tags": [
+            "composition",
+            "arrangement",
+            "ceiling"
+          ],
+          "at": [
+            0.5,
+            0.494
+          ],
+          "polygon": [
+            [
+              0.18,
+              0.48
+            ],
+            [
+              0.82,
+              0.48
+            ],
+            [
+              0.82,
+              0.63
+            ],
+            [
+              0.18,
+              0.63
+            ]
+          ],
+          "reading": "Repeated tables and chair backs establish a balanced lower field beneath a much taller, irregular planted enclosure.",
+          "rationale": "Repetition creates rhythm; rounded chairs soften the geometry. The contrast between human-scale furniture and the tall wall makes the room’s vertical proportion apparent.",
+          "boundary": "The photograph provides a centred composition; it does not prove perfect symmetry or give measured room proportions.",
+          "evidence": "Interpretation from photograph",
+          "sources": [
+            "project"
+          ],
+          "diagram": "balance"
+        }
+      ]
+    },
+    {
+      "id": "threshold",
+      "num": "03",
+      "title": "The threshold",
+      "subtitle": "Light stone, timber, then a distant garden.",
+      "description": "This approach photograph connects the hotel’s public circulation with the restaurant. A framed opening compresses the view and stages the change of material.",
+      "theme": "stone",
+      "image": "threshold",
+      "size": [
+        2000,
+        2226
+      ],
+      "credit": "Photograph © Fernando Guerra · ArchDaily / Studio Arthur Casas",
+      "source": "plan",
+      "planZone": "entry",
+      "overview": [
+        "Public approach",
+        "Material transition",
+        "Framed sightline"
+      ],
+      "hotspots": [
+        {
+          "id": "opening",
+          "code": "01",
+          "title": "An opening establishes a sequence",
+          "short": "Framed threshold",
+          "tags": [
+            "walls",
+            "circulation",
+            "composition"
+          ],
+          "at": [
+            0.325,
+            0.545
+          ],
+          "polygon": [
+            [
+              0.319,
+              0.454
+            ],
+            [
+              0.637,
+              0.454
+            ],
+            [
+              0.637,
+              0.835
+            ],
+            [
+              0.319,
+              0.835
+            ]
+          ],
+          "path": [
+            [
+              0.5,
+              0.96
+            ],
+            [
+              0.48,
+              0.85
+            ],
+            [
+              0.38,
+              0.77
+            ],
+            [
+              0.373,
+              0.701
+            ]
+          ],
+          "reading": "The restaurant is seen through a clearly framed opening. The published project description separates the public route to the restaurant from the private guest-reception route.",
+          "rationale": "The change in enclosure makes arrival legible. Framing concentrates attention on the timber room and green wall further inside.",
+          "boundary": "This is an approach view, not a panorama or a measured doorway survey. The route line is interpretive and avoids the central display.",
+          "evidence": "Documented route + observation",
+          "sources": [
+            "project",
+            "plan"
+          ],
+          "diagram": "route"
+        },
+        {
+          "id": "display",
+          "code": "02",
+          "title": "A display table, not a dining setting",
+          "short": "Niemeyer display table",
+          "tags": [
+            "furniture",
+            "arrangement",
+            "composition"
+          ],
+          "at": [
+            0.496,
+            0.742
+          ],
+          "polygon": [
+            [
+              0.378,
+              0.706
+            ],
+            [
+              0.434,
+              0.697
+            ],
+            [
+              0.55,
+              0.697
+            ],
+            [
+              0.601,
+              0.712
+            ],
+            [
+              0.592,
+              0.724
+            ],
+            [
+              0.531,
+              0.724
+            ],
+            [
+              0.531,
+              0.767
+            ],
+            [
+              0.575,
+              0.793
+            ],
+            [
+              0.539,
+              0.802
+            ],
+            [
+              0.495,
+              0.791
+            ],
+            [
+              0.455,
+              0.802
+            ],
+            [
+              0.419,
+              0.793
+            ],
+            [
+              0.465,
+              0.766
+            ],
+            [
+              0.465,
+              0.724
+            ],
+            [
+              0.397,
+              0.722
+            ]
+          ],
+          "reading": "The restaurant factsheet lists a Niemeyer table, supplied by Arquivo Vivo. Here a sculptural freestanding table carries flowers rather than dining place settings.",
+          "rationale": "Its central position makes it a focal marker. The curved base and floral arrangement counter the straight frame of the entrance.",
+          "boundary": "Do not count the display as a dining table or infer dining capacity from it. The photograph records a particular arrangement.",
+          "evidence": "Specified + observed",
+          "sources": [
+            "facts",
+            "plan"
+          ],
+          "diagram": "focus"
+        },
+        {
+          "id": "transition",
+          "code": "03",
+          "title": "A material change marks entry",
+          "short": "Stone to timber",
+          "tags": [
+            "floor",
+            "materials",
+            "composition"
+          ],
+          "at": [
+            0.5,
+            0.854
+          ],
+          "polygon": [
+            [
+              0.32,
+              0.835
+            ],
+            [
+              0.636,
+              0.835
+            ],
+            [
+              0.676,
+              0.884
+            ],
+            [
+              0.283,
+              0.884
+            ]
+          ],
+          "reading": "Pale mineral surfaces in the approach meet the darker timber floor of the restaurant. The surface change coincides with the opening.",
+          "rationale": "Colour and texture give a clear perceptual cue that one interior zone is ending and another is beginning.",
+          "boundary": "The exact stone variety and construction joint are not identified from this image. This approach flooring is not attributed to the whole restaurant.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "plan"
+          ],
+          "diagram": "materials"
+        },
+        {
+          "id": "approach-ceiling",
+          "code": "04",
+          "title": "The ceiling reinforces the transition",
+          "short": "Ceiling contrast",
+          "tags": [
+            "ceiling",
+            "lighting",
+            "composition"
+          ],
+          "at": [
+            0.5,
+            0.255
+          ],
+          "polygon": [
+            [
+              0.048,
+              0.008
+            ],
+            [
+              0.985,
+              0.008
+            ],
+            [
+              0.976,
+              0.218
+            ],
+            [
+              0.842,
+              0.22
+            ],
+            [
+              0.637,
+              0.454
+            ],
+            [
+              0.321,
+              0.454
+            ]
+          ],
+          "reading": "The pale approach ceiling leads to the timber canopy. Small recessed lights form a repeated overhead sequence in both areas.",
+          "rationale": "Repetition keeps the route coherent while the change in finish creates contrast. The garden remains a distant point of emphasis.",
+          "boundary": "The visible finish change does not establish floor-to-ceiling heights or concealed ceiling construction.",
+          "evidence": "Observed + interpretation",
+          "sources": [
+            "plan"
+          ],
+          "diagram": "section"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+PHOTOGRAPHS AND ARCHITECTURAL DRAWING
+
+Image redistribution permission: NOT VERIFIED.
+
+The three restaurant photographs are credited to Fernando Guerra / FG+SG.
+The ground-floor drawing is credited to Studio Arthur Casas + Oppenheim
+Architecture. Publication on an architect, hotel or architecture-magazine
+website does not establish an open licence for re-use in a downloadable ZIP.
+No explicit applicable redistribution licence was located in this research.
+
+This archive is an academic analytical prototype. Inclusion, attribution,
+annotation and depth processing do not themselves grant image reuse rights.
+Obtain the relevant rights-holder permission before publishing or distributing
+the photographs. This is a factual rights-status record, not a legal clearance
+or an assertion that an educational exception necessarily applies.
+
+SOURCES
+Timber-room photograph: Fernando Guerra, published in Architectural Record,
+April 2018, architect-hosted PDF, page with main restaurant interior.
+https://www.arthurcasas.com/app/uploads/2018/12/2018-04-architectural-record-materia.pdf
+
+Garden photograph: Fernando Guerra, Studio Arthur Casas, Emiliano Rio project.
+https://www.arthurcasas.com/projects/emiliano-rio-hotel/
+
+Threshold photograph and ground-floor drawing: published by ArchDaily.
+https://www.archdaily.com/889368/emiliano-rj-studio-arthur-casas
+
+Edits/processing: web-compatible RGB conversion where needed; no generative
+replacement, recolouring, object removal or fabricated interior imagery.
+Relative AI depth maps and manually traced analytical regions are supplied
+separately. The display temporarily reprojects source pixels for optical depth.
+
+SOFTWARE
+Three.js r160: MIT licence, vendor/THREE-LICENSE.txt.
+Cormorant Garamond: SIL Open Font License, vendor/FONT-OFL.txt.
+Depth Anything V2 Small: Apache-2.0, vendor/DEPTH-ANYTHING-LICENSE.txt.
+The trained model is used only during preparation and is not a runtime
+dependency. Its identity and checksum are in depth-provenance.json.
+
+The original application code and analytical text may be adapted for this
+student project. This permission excludes the photographs, architectural
+drawing, third-party software and fonts; their respective rights remain.
+
+Source review: 14–15 October 2026.

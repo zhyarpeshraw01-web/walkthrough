@@ -1,0 +1,65 @@
+[
+  {
+    "scene": "timber",
+    "source_dimensions": [
+      2338,
+      1501
+    ],
+    "inference_dimensions": [
+      812,
+      518
+    ],
+    "model": "onnx-community/depth-anything-v2-small",
+    "variant": "model_quantized.onnx",
+    "depth": "relative inverse depth; white nearer; not metric",
+    "normalization_percentiles": [
+      0.5,
+      99.5
+    ],
+    "display_smoothing_sigma_pixels": 0.65,
+    "source_sha256": "afcd46c39155dacc97268f191d236d6053cff30fd7ef8146c8424f56ff2673d5",
+    "model_sha256": "fcf51f1b230362b28690bb9d1809bf0431f29cad20534e3f589bd7285547f20d"
+  },
+  {
+    "scene": "garden",
+    "source_dimensions": [
+      2349,
+      3000
+    ],
+    "inference_dimensions": [
+      518,
+      658
+    ],
+    "model": "onnx-community/depth-anything-v2-small",
+    "variant": "model_quantized.onnx",
+    "depth": "relative inverse depth; white nearer; not metric",
+    "normalization_percentiles": [
+      0.5,
+      99.5
+    ],
+    "display_smoothing_sigma_pixels": 0.65,
+    "source_sha256": "65329497316e64a149ef9e74fa022f4021a50c2853f8a146f6ccc3e71094e054",
+    "model_sha256": "fcf51f1b230362b28690bb9d1809bf0431f29cad20534e3f589bd7285547f20d"
+  },
+  {
+    "scene": "threshold",
+    "source_dimensions": [
+      2000,
+      2226
+    ],
+    "inference_dimensions": [
+      518,
+      574
+    ],
+    "model": "onnx-community/depth-anything-v2-small",
+    "variant": "model_quantized.onnx",
+    "depth": "relative inverse depth; white nearer; not metric",
+    "normalization_percentiles": [
+      0.5,
+      99.5
+    ],
+    "display_smoothing_sigma_pixels": 0.65,
+    "source_sha256": "666db2097922954c192b55a9e9fa9ee02718323264ab299cd22e8fd5728282b2",
+    "model_sha256": "fcf51f1b230362b28690bb9d1809bf0431f29cad20534e3f589bd7285547f20d"
+  }
+]

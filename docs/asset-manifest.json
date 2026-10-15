@@ -1,0 +1,51 @@
+[
+  {
+    "key": "timber-photo",
+    "file": "assets/photos/timber.jpg",
+    "width": 2338,
+    "height": 1501,
+    "sha256": "afcd46c39155dacc97268f191d236d6053cff30fd7ef8146c8424f56ff2673d5"
+  },
+  {
+    "key": "timber-depth",
+    "file": "assets/depth/timber.png",
+    "width": 768,
+    "height": 493,
+    "sha256": "fbe20ab06f5bfb8a40d3465c4f7ebc89e279ea52e5a8c7ed1d08ef6769b4ce21"
+  },
+  {
+    "key": "garden-photo",
+    "file": "assets/photos/garden.jpg",
+    "width": 2349,
+    "height": 3000,
+    "sha256": "65329497316e64a149ef9e74fa022f4021a50c2853f8a146f6ccc3e71094e054"
+  },
+  {
+    "key": "garden-depth",
+    "file": "assets/depth/garden.png",
+    "width": 601,
+    "height": 768,
+    "sha256": "d03780fd95eac653094212c11ba43464b329a8f2702cb96382bc1e00a05193c1"
+  },
+  {
+    "key": "threshold-photo",
+    "file": "assets/photos/threshold.jpg",
+    "width": 2000,
+    "height": 2226,
+    "sha256": "666db2097922954c192b55a9e9fa9ee02718323264ab299cd22e8fd5728282b2"
+  },
+  {
+    "key": "threshold-depth",
+    "file": "assets/depth/threshold.png",
+    "width": 690,
+    "height": 768,
+    "sha256": "1848d92ec7d30bd7f11a8d210aaa5443df9cdda586412ef78bbef951b082de04"
+  },
+  {
+    "key": "ground-floor",
+    "file": "assets/photos/ground-floor.jpg",
+    "width": 2000,
+    "height": 1414,
+    "sha256": "81d3dca74174ef0799efaf63f6de326a2b3b1149440df7138b561881fee66f8a"
+  }
+]

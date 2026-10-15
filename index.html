@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#171c19">
+  <meta name="description" content="An interactive photographic interior study of Emile Restaurant, Hotel Emiliano Rio. Furniture, light and spatial perception.">
+  <title>Emile — Between timber & forest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="intro-active">
+  <a class="skip" href="#insight">Skip to architectural analysis</a>
+  <header class="masthead">
+    <button class="wordmark" id="homeButton" aria-label="Return to introduction">emile<span>an interior study</span></button>
+    <p class="location">HOTEL EMILIANO RIO <span>Copacabana, Brazil · 2017</span></p>
+    <nav class="tools" aria-label="Presentation tools">
+      <button id="planButton" class="tool">Floor plan <span>↗</span></button>
+      <button id="methodButton" class="tool">Evidence & method <span>↗</span></button>
+      <button id="fullButton" class="icon" title="Fullscreen (F)" aria-label="Toggle fullscreen">⛶</button>
+    </nav>
+  </header>
+  <main>
+    <section id="stageArea" class="stage-area" aria-label="Interactive restaurant photograph">
+      <div class="stage-heading"><span id="frameTitle">01 / THE TIMBER ROOM</span><span class="live-marker">A PHOTOGRAPH, WITH DEPTH</span></div>
+      <div id="stage" class="stage" tabindex="0" aria-label="Move the pointer or drag gently to change perspective. Use left and right arrow keys to change scene.">
+        <img id="fallback" alt="Interior of Emile Restaurant" hidden>
+        <canvas id="sceneCanvas" aria-label="Depth-parallax photograph"></canvas>
+        <svg id="analysisSvg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g id="regions"></g><g id="guides"></g><path id="leader" /></svg>
+        <div id="hotspots" class="hotspots" aria-label="Objects in this photograph"></div>
+        <div id="loadNotice" role="status">Preparing the photographic layers <span class="loading-bar"></span></div>
+        <div id="sceneFlash" aria-hidden="true"></div>
+      </div>
+      <div class="stage-caption"><span id="photoCredit"></span><span id="effectLabel">Estimated depth · gently move or drag</span></div>
+    </section>
+
+    <section class="intro" id="intro" aria-labelledby="introTitle">
+      <p class="eyebrow">FURNITURE / LIGHT / MATERIAL / SPACE</p>
+      <h1 id="introTitle">Between<br>timber <i>&</i><br><em>forest.</em></h1>
+      <p class="intro-copy">Enter the photograph.<br>Read the architecture.</p>
+      <button id="enterButton" class="enter" disabled><span>Preparing the study</span><b aria-hidden="true">↗</b></button>
+      <p class="intro-note">Three authentic photographic compositions.<br>Subtle inferred depth. Object-linked analysis.</p>
+      <p class="authors">Prepared by<br><strong>Zhyar Peshraw · Yasr · Soma · Snur</strong></p>
+    </section>
+
+    <aside class="insight" id="insight" tabindex="-1" aria-label="Architectural analysis">
+      <div class="insight-top"><button id="lensButton" class="lens-button" aria-haspopup="dialog"><span class="lens-icon">⊙</span><span id="lensName">Read the room</span><b>+</b></button><button id="analysisButton" class="toggle" aria-pressed="true" title="Show or hide analysis (A)">Analysis <span class="switch"></span></button></div>
+      <div id="insightContent"></div>
+      <div id="objectList" class="object-list" aria-label="Select an object"></div>
+      <div class="view-controls"><button id="motionButton" class="view-button active" aria-pressed="true">Depth effect</button><button id="mapButton" class="view-button" aria-pressed="false">Depth map</button><button id="layersButton" class="view-button" aria-pressed="false">Layers</button></div>
+      <p class="control-note" id="controlNote">Hover to reveal depth. Drag gently to shift perspective.</p>
+    </aside>
+
+    <footer class="scene-navigation" aria-label="Photographic scenes">
+      <div class="nav-status"><span id="sceneCount">01 / 03</span><span id="progressRail"><i></i></span></div>
+      <nav class="chapters" id="chapters"></nav>
+      <div class="nav-arrows"><button id="prevButton" aria-label="Previous photographic scene">←</button><button id="nextButton" aria-label="Next photographic scene">→</button></div>
+    </footer>
+    <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  </main>
+
+  <dialog id="lensDialog" class="lens-dialog"><div class="dialog-heading"><div><p class="eyebrow">ANALYTICAL LENSES</p><h2>Choose what to read.</h2></div><button class="close" data-close aria-label="Close analysis lenses">×</button></div><div id="lensOptions"></div><p class="dialog-note">Each lens reveals relevant objects in the current photograph. The explanations distinguish observation, specification and interpretation.</p></dialog>
+
+  <dialog id="planDialog" class="plan-dialog"><div class="dialog-heading"><div><p class="eyebrow">DOCUMENTARY EVIDENCE / GROUND FLOOR</p><h2>Two rooms. One sequence.</h2></div><button class="close" data-close aria-label="Close floor plan">×</button></div>
+    <div class="plan-tools" role="group" aria-label="Floor plan overlays"><button data-plan="zones" class="active">Zones</button><button data-plan="seating">Seating</button><button data-plan="tables">Table count</button><button data-plan="light">Light direction</button><button id="planExtent">Show full floor</button></div>
+    <div class="plan-canvas"><svg id="planSvg" xmlns="http://www.w3.org/2000/svg" viewBox="425 253 753 284" aria-label="Published restaurant floor plan with analytical overlays"><image id="planImage" x="0" y="0" width="2000" height="1414"/><g id="planOverlay"></g></svg></div>
+    <div id="planLegend" class="plan-legend"></div><p id="planExplanation" class="plan-explanation"></p>
+    <p class="dialog-note">Original drawing: Studio Arthur Casas + Oppenheim Architecture, published by ArchDaily. Colour overlays are added analysis. The drawing does not specify every chair model. No measured accessibility or current capacity is claimed.</p>
+  </dialog>
+
+  <dialog id="methodDialog" class="method-dialog"><div class="dialog-heading"><div><p class="eyebrow">EVIDENCE / INFERENCE / INTERPRETATION</p><h2>What you are seeing.</h2></div><button class="close" data-close aria-label="Close evidence and method">×</button></div>
+    <div class="method-grid"><section><span class="method-number">01</span><h3>Actual photographs</h3><p>Three published views of the restaurant and its threshold, photographed by Fernando Guerra. They retain the source composition, furniture and colours. The study examines the documented 2017 interior, not a verified present-day inventory.</p></section><section><span class="method-number">02</span><h3>Estimated depth</h3><p>Depth Anything V2 Small estimates relative depth from each single image. A perspective-compensated mesh and three depth layers produce restrained parallax. This is an optical reconstruction, not surveyed geometry.</p></section><section><span class="method-number">03</span><h3>Architectural reading</h3><p>Object regions are manually traced. Lines and diagrams describe observed relationships. Measured dimensions, hidden construction, lighting performance and original 3D renders are not available in this study.</p></section></div>
+    <div class="method-detail"><h3>Inspect the effect</h3><p><b>Depth effect</b> toggles between the moving reconstruction and the original still. <b>Depth map</b> displays the actual estimated map: white is nearer, black is farther. <b>Layers</b> separates depth bands as a diagram; gaps are deliberately left empty. It does not invent unseen furniture or surfaces.</p></div>
+    <div class="rights"><h3>Photograph rights</h3><p>Copyright remains with the original photographer and rights holders. An explicit licence for redistribution of these images in an offline package was not found. This academic analytical prototype does not grant image reuse rights; obtain the relevant permission before publishing or distributing the photographs.</p></div>
+    <h3 class="source-title">Sources & credits</h3><div id="sourceList"></div>
+    <p class="dialog-note">Interiors: Studio Arthur Casas · Architecture: Studio Arthur Casas + Oppenheim Architecture · Landscape: Renata Tilli · Completed 2017. Analysis prepared by Zhyar Peshraw, Yasr, Soma and Snur. Three.js is MIT licensed; Cormorant Garamond is SIL OFL licensed. Full notices and depth provenance are included in the package.</p>
+    <details><summary>Controls, accessibility & offline use</summary><p>Mouse: move for parallax, drag for a small perspective shift. Touch: drag slowly to explore; a quick horizontal swipe changes scenes. Arrow keys change scenes; A toggles analysis, M toggles depth motion, P opens the plan, F toggles fullscreen, Esc closes a dialog or selection. Tab reaches every button and object. Reduced-motion preferences are respected. If WebGL is unavailable, the photographs and analysis remain usable in still mode. The application makes no network requests; source links open only when you choose them.</p></details>
+  </dialog>
+  <noscript><div class="no-script">JavaScript is needed for the interactive study. Enable it, then open index.html again.</div></noscript>
+  <script src="vendor/three.min.js"></script><script src="assets.bundle.js"></script><script src="content.js"></script><script src="scene-math.js"></script><script src="app.js"></script>
+</body></html>

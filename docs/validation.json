@@ -1,0 +1,111 @@
+{
+  "dom_state_tests": {
+    "checks": 115,
+    "objects": 21,
+    "scenes": 3,
+    "passed": true,
+    "scope": "DOM/state execution with a mocked graphics device; actual browser rendering and Windows launch not tested"
+  },
+  "offscreen_shader_tests": {
+    "passed": true,
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "scope": "Actual offscreen OpenGL rendering of the shader logic; not browser rendering",
+    "scenes": [
+      {
+        "scene": "timber",
+        "neutral_projection_max_error_px": 4.926328540477698e-05,
+        "probe_motion_xy_px": [
+          [
+            6.342199811295558,
+            3.6680484969546825
+          ],
+          [
+            0.535163644625186,
+            -0.13360438162101218
+          ],
+          [
+            2.026771135433478,
+            -2.8838738592839945
+          ],
+          [
+            0.5336755004123006,
+            3.516941682953984
+          ],
+          [
+            1.2668205145075717,
+            -0.496684298805917
+          ]
+        ],
+        "max_probe_motion_px": 7.326532482860423
+      },
+      {
+        "scene": "garden",
+        "neutral_projection_max_error_px": 2.3492327500207466e-05,
+        "probe_motion_xy_px": [
+          [
+            1.5869701308905064,
+            1.6833544865146735
+          ],
+          [
+            0.4312305965260066,
+            -0.10765734307892671
+          ],
+          [
+            -1.2986946205081153,
+            -1.4967356201284474
+          ],
+          [
+            -4.670931742031712,
+            2.261064099737382
+          ],
+          [
+            0.3689289112445522,
+            -0.26339715034404776
+          ]
+        ],
+        "max_probe_motion_px": 5.189413666479155
+      },
+      {
+        "scene": "threshold",
+        "neutral_projection_max_error_px": 2.328806522200466e-05,
+        "probe_motion_xy_px": [
+          [
+            -3.122606379512149,
+            3.3651187739487654
+          ],
+          [
+            -0.4927150045239159,
+            0.1230070371125862
+          ],
+          [
+            -0.979412233320943,
+            -1.686878204210302
+          ],
+          [
+            -3.7245469532734887,
+            2.360054666006704
+          ],
+          [
+            -4.610328839384579,
+            1.0302963738118365
+          ]
+        ],
+        "max_probe_motion_px": 4.724049388517332
+      }
+    ]
+  },
+  "package_checks": {
+    "all_runtime_paths_exist": true,
+    "all_image_assets_decode": true,
+    "image_assets": 22,
+    "asset_hashes_match": true,
+    "all_21_object_coordinates_in_frame": true,
+    "windows_launcher_crlf": true,
+    "authored_app_has_no_fetch_calls": true
+  },
+  "verification_limits": [
+    "No actual browser visual QA: required browser-control capability unavailable.",
+    "Windows launcher was not executed on Windows.",
+    "Photo redistribution permission was not verified."
+  ]
+}
